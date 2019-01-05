@@ -1,2 +1,8 @@
-# sma-crossover-strategy
-Built a simple moving average crossover strategy on Quantopian's research and notebook environment
+# Trading Algorithms 
+
+This repo will be a collection of the multiple trading algos that I've built over time.
+
+
+Current algorithms:
+
+Simple Moving Average Crossover Strategy
