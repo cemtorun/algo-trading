@@ -36,11 +36,11 @@ def make_pipeline():
     
     sentiment_pipeline = Pipeline(
                                  columns={
-                                  "sentiment": sentiment_quantiles,
-                                  "longs": sentiment_quantiles.eq(0),
-                                  "shorts": sentiment_quantiles.eq(1),
+                                 "sentiment": sentiment_quantiles,
+                                 "longs": sentiment_quantiles.eq(0),
+                                 "shorts": sentiment_quantiles.eq(1),
         },
-                                  screen = universe)
+                                 screen = universe)
     
     return sentiment_pipeline
 
