@@ -8,3 +8,5 @@ Current algorithms:
 Simple Moving Average Crossover Strategy
 
 Sentiment Analysis from MorningStar Ratings
+
+Bank Indebtedness
